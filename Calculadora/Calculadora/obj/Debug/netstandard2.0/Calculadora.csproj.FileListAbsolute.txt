@@ -1,0 +1,15 @@
+D:\AppMobile\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.deps.json
+D:\AppMobile\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.dll
+D:\AppMobile\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\ref\Calculadora.dll
+D:\AppMobile\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.pdb
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.csproj.AssemblyReference.cache
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.AssemblyInfoInputs.cache
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.AssemblyInfo.cs
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.csproj.CoreCompileInputs.cache
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\XamlC.stamp
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.dll
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\refint\Calculadora.dll
+D:\AppMobile\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.pdb
