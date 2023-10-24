@@ -1,44 +1,44 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Calculadora
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+        private const int MaxLength = 10; // Número máximo de caracteres
 
         private decimal primerNumero;
         private string nombreOperador;
         private bool isOperadorClicked;
 
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+
         private void BtnCommon_Clicked(object sender, EventArgs e)
         {
-           var button = sender as Button;
-            if (lblResultado.Text=="0" || isOperadorClicked)
+            var button = sender as Button;
+            if (lblResultado.Text == "0" || isOperadorClicked)
             {
                 isOperadorClicked = false;
                 lblResultado.Text = button.Text;
             }
             else
             {
-                lblResultado.Text += button.Text;
+                // Verificar la longitud actual del texto antes de agregar el dígito
+                if (lblResultado.Text.Length < MaxLength)
+                {
+                    lblResultado.Text += button.Text;
+                }
             }
         }
 
         private void BtnClear_Clicked(object sender, EventArgs e)
         {
             lblResultado.Text = "0";
-            isOperadorClicked=false;
+            isOperadorClicked = false;
             primerNumero = 0;
-
         }
 
         private void BtnX_Clicked(object sender, EventArgs e)
@@ -46,7 +46,7 @@ namespace Calculadora
             string number = lblResultado.Text;
             if (number != "0")
             {
-                number = number.Remove(number.Length -1, 1);
+                number = number.Remove(number.Length - 1, 1);
                 if (string.IsNullOrEmpty(number))
                 {
                     lblResultado.Text = "0";
@@ -56,7 +56,6 @@ namespace Calculadora
                     lblResultado.Text = number;
                 }
             }
-            
         }
 
         public void BtnCommonOperation_Clicked(object sender, EventArgs e)
@@ -65,7 +64,6 @@ namespace Calculadora
             isOperadorClicked = true;
             nombreOperador = button.Text;
             primerNumero = Convert.ToDecimal(lblResultado.Text);
-
         }
 
         private async void BtnPorcentaje_Clicked(object sender, EventArgs e)
@@ -82,8 +80,7 @@ namespace Calculadora
             }
             catch (Exception ex)
             {
-
-                await DisplayAlert("Error ",ex.Message,"OK");
+                await DisplayAlert("Error", ex.Message, "OK");
             }
         }
 
@@ -92,17 +89,16 @@ namespace Calculadora
             try
             {
                 decimal segundoNumero = Convert.ToDecimal(lblResultado.Text);
-                string resultadoFinal = Calcular(primerNumero,segundoNumero,nombreOperador).ToString("0.##");
+                string resultadoFinal = Calcular(primerNumero, segundoNumero, nombreOperador).ToString("0.##");
                 lblResultado.Text = resultadoFinal;
             }
             catch (Exception ex)
             {
-
-                DisplayAlert("Error",ex.Message,"OK");
+                DisplayAlert("Error", ex.Message, "OK");
             }
         }
 
-        public decimal Calcular(decimal primerNumero,decimal segundoNumero,string nombreOperador)
+        public decimal Calcular(decimal primerNumero, decimal segundoNumero, string nombreOperador)
         {
             decimal resultado = 0;
             if (nombreOperador == "+")
@@ -113,7 +109,7 @@ namespace Calculadora
             {
                 resultado = primerNumero - segundoNumero;
             }
-            else if(nombreOperador == "*")
+            else if (nombreOperador == "*")
             {
                 resultado = primerNumero * segundoNumero;
             }
@@ -123,7 +119,6 @@ namespace Calculadora
             }
 
             return resultado;
-
         }
     }
 }

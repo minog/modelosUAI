@@ -8,10 +8,10 @@
             <Label 
                x:Name="lblHeader" 
                FontFamily="digital-7.ttf#Digital-7 Regular" 
-               Text="CALCULADORA - MODELOS 2023"
+               Text="MODELOS 2023"
                Padding="10"
                TextColor="Black"
-               FontSize="24" 
+               FontSize="48" 
                FontAttributes="Bold"
                HorizontalTextAlignment="Center">
             </Label>
@@ -47,7 +47,7 @@
                     Grid.Column="0"
                     Text="C"
                     FontSize="Large"
-                    BackgroundColor="LightBlue"
+                    BackgroundColor="orange"
                     FontAttributes="Bold"
                     Padding="32"
                     x:Name="BtnClear"

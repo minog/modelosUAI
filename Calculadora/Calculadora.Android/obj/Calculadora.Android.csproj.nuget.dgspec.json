@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora.Android\\Calculadora.Android.csproj": {}
+    "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora.Android\\Calculadora.Android.csproj": {}
   },
   "projects": {
-    "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora.Android\\Calculadora.Android.csproj": {
+    "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora.Android\\Calculadora.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora.Android\\Calculadora.Android.csproj",
+        "projectUniqueName": "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora.Android\\Calculadora.Android.csproj",
         "projectName": "Calculadora.Android",
-        "projectPath": "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora.Android\\Calculadora.Android.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora.Android\\obj\\",
+        "projectPath": "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora.Android\\Calculadora.Android.csproj",
+        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+        "outputPath": "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,13 @@
           "monoandroid13.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj": {
-                "projectPath": "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj"
+              "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj": {
+                "projectPath": "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj"
               }
             }
           }
@@ -44,30 +43,30 @@
           "dependencies": {
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.8.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2612, )"
             }
           }
         }
       }
     },
-    "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj": {
+    "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora\\obj\\",
+        "projectPath": "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+        "outputPath": "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -75,7 +74,6 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },

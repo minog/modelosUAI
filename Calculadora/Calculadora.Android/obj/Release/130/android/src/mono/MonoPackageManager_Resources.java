@@ -11,6 +11,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.CardView.dll",
 		"Xamarin.AndroidX.CoordinatorLayout.dll",
 		"Xamarin.AndroidX.Core.dll",
+		"Xamarin.AndroidX.CursorAdapter.dll",
 		"Xamarin.AndroidX.CustomView.dll",
 		"Xamarin.AndroidX.DrawerLayout.dll",
 		"Xamarin.AndroidX.Fragment.dll",
@@ -30,6 +31,13 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",
+		"Xamarin.Jetbrains.Annotations.dll",
+		"Xamarin.Kotlin.StdLib.Common.dll",
+		"Xamarin.Kotlin.StdLib.dll",
+		"Xamarin.Kotlin.StdLib.Jdk7.dll",
+		"Xamarin.Kotlin.StdLib.Jdk8.dll",
+		"Xamarin.KotlinX.Coroutines.Android.dll",
+		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

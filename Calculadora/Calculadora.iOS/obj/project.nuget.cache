@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mZAA+nDuPtXv9B6qklYvcVPT/iK3CalE5gsqymLgaw5DjtbdAdi+qyj/0n5nG3i9WynVfBrCNhxKbLBkYVp/wA==",
+  "dgSpecHash": "1IrX9dUp8t+/NaZbEiUREOnb2Lrk9lxDighjslUJxS1JPxh+tEq2SiVSL0Un3dppTL9uK4HF0KUcaPyb2Qm41Q==",
   "success": true,
-  "projectFilePath": "D:\\AppMobile\\Calculadora\\Calculadora\\Calculadora.iOS\\Calculadora.iOS.csproj",
+  "projectFilePath": "D:\\XAMARIN\\Calculadora\\Calculadora\\Calculadora.iOS\\Calculadora.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gusta\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\gusta\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Developer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
